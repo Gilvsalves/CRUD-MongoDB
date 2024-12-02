@@ -72,6 +72,6 @@ mongoose.connect("mongodb+srv://mongo:mongoso@cluster0.pjqam.mongodb.net/?retryW
     .catch((error) => console.error('Erro ao conectar ao banco:', error));
 
 // Inicialização do servidor
-app.listen(8800, () => {
+app.listen(5000, () => {
     console.log("Servidor rodando na porta 8800!");
 });
