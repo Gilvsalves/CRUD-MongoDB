@@ -5,10 +5,14 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    age:{
-        type: Number,
-        requires: true
+    email: {
+        type: String,
+        required: true
     },
+    // age:{
+    //     type: Number,
+    //     requires: true
+    // },
     createadAt:{
         type: Date,
         default: Date.now()
